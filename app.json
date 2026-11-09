@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "kolo",
+    "name": "kọ́lọ́",
     "slug": "kolo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,16 +8,17 @@
     "scheme": "kolo",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.kolo"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/icon.png",
+        "monochromeImage": "./assets/images/monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.kolo"
     },
     "web": {
       "output": "static",
@@ -29,8 +30,8 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "image": "./assets/images/icon.png",
+          "imageWidth": 66
         }
       ]
     ],
